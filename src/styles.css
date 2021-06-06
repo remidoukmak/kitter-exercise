@@ -79,3 +79,8 @@
 .Icon i {
   margin-right: 0.5rem;
 }
+
+.timeline {
+  display: flex;
+  text-align: center;
+}

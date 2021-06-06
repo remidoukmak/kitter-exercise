@@ -6,7 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>Kitter</h1>
-      <Meow {...meows[0]} />
+      {meows.map((meow) => (
+        <Meow {...meows[0]} />
+      ))}
     </div>
   );
 }
